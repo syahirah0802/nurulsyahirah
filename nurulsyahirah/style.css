@@ -1,0 +1,55 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: -40px;
+    padding-right: 70px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 2px;
+    font-size: 14px;s
+}
+.nav-area li a:hover{
+    background: rgba(0.37, 0.25, 0.46, 0.2);
+    color: #C8A2C8;
+}
+.logo img{
+    position: absolute;
+    margin: 0 50%;
+    width: 180px;
+    left: 140px;
+    top: 30px;
+    display: inline-block;
+    height: 180px;
+    z-index: 100000;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.welcome-text{
+    position: absolute;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text p{
+    color: white;
+}
+
